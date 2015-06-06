@@ -454,7 +454,6 @@ class btree
 				if (leaf->sk > 1)
 					map[getString(leaf->key_value)]=leaf->sk;
 				PasikartojaciuIsrinkimas( leaf->left );
-				
 				PasikartojaciuIsrinkimas( leaf->right );
 			}
 		}
